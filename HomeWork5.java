@@ -2,15 +2,15 @@ package class9HomeWork;
 
 public class HomeWork5 {
     public static void main(String[] args) {
-       // 4) Create an array that can store names of cars and store 6 elements into it.
-        // Print all values from the array.
+       // 5) Create an array of size 5 on integers and calculate the sum of all elements in an array.
 
-
-        String [] carNames={"Toyota","BMW","Porsche","Ferrari","Mercedes","Nissan"};
-        for (int i = 0; i < carNames.length; i++) {
-            System.out.println(carNames[i]);
+        int sum=0;
+        int [] numbers={10,220,4,45,60};
+        for (int i = 0; i < numbers.length; i++) {
+sum=sum+numbers[i];
 
         }
+        System.out.println("Sum of the numbers is "+sum);
 
 
     }
